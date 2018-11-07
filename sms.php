@@ -3,7 +3,7 @@ $key = "your_app_key";
 $secret = "your_app_secret";
 
 $user = "application\\" . $key . ":" . $secret;
-$message = array("message"=>"Test");
+$message = array("SI NITA GENDUT YANG TAU SEMUA RAHASI SELINGKUH KAMU NIA"=>"Test");
 $data = json_encode($message);
 $ch = curl_init('https://messagingapi.sinch.com/v1/sms/+16507141052');
 curl_setopt($ch, CURLOPT_POST, true);
